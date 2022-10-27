@@ -1,0 +1,124 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+}
+
+body{
+     background-color: rgb(110, 110, 110);
+}
+
+.title{
+     height: 80px;
+     width: 100%;
+     background-color: rgb(82, 82, 82);
+     color: white;
+}
+
+.header{
+     padding-top: 0.5%;
+     font-size: 50px;
+     text-align: center;
+}
+
+.credit{
+     text-align: center;
+     color: black;
+}
+
+.watch_a_movie{
+     float: left;
+     padding-left: 8em;
+     padding-top: 14em;
+     height: 20em;
+     width: 20em;
+}
+
+.button_movie{
+     height: 8em;
+     width: 8em;
+     background-image: url("movie_icon.png");
+     background-position: 1em 0.5em;
+     background-size: 6em 7em;
+     background-repeat: no-repeat;
+     background-color: rgb(64, 64, 64);
+     box-shadow: 5px 5px rgb(78, 78, 78);
+     border: none;
+     color: white;
+     text-align: center;
+     font-size: 55px;
+     display: block;
+}
+
+.button_movie:hover{
+     height: 8.5em;
+     width: 8.5em;
+     background-size: 6.5em 7.5em;
+}
+
+.do_yoga{
+     float: left;
+     padding-left: 26em;
+     padding-top: 14em;
+     height: 20em;
+     width: 20em;
+}
+
+.button_yoga{
+     height: 8em;
+     width: 8em;
+     background-image: url("yoga_logo.png");
+     background-position: 1em 1em;
+     background-size: 6em 6em;
+     background-repeat: no-repeat;
+     background-color: rgb(64, 64, 64);
+     box-shadow: 5px 5px rgb(78, 78, 78);
+     border: none;
+     color: white;
+     text-align: center;
+     font-size: 55px;
+     display: block;
+}
+
+.button_yoga:hover{
+     height: 8.5em;
+     width: 8.5em;
+     background-size: 6.5em 6.5em;
+}
+
+.read_a_good_book{
+     float: left;
+     padding-left: 38em;
+     padding-top: 14em;
+     height: 200px;
+     width: 200px;
+}
+
+.button_read{
+     height: 8em;
+     width: 8em;
+     background-image: url("read_book_logo.png");
+     background-position: 1em 1em;
+     background-size: 6em 6em;
+     background-repeat: no-repeat;
+     background-color: rgb(64, 64, 64);
+     box-shadow: 5px 5px rgb(78, 78, 78);
+     border: none;
+     color: white;
+     text-align: center;
+     font-size: 55px;
+     display: block;
+}
+
+.button_read:hover{
+     height: 8.5em;
+     width: 8.5em;
+     background-size: 6.5em 6.5em;
+}
+
+.joke{
+     text-align: center;
+     padding-top: 30em;
+}
